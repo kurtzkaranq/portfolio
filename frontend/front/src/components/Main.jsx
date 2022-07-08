@@ -15,7 +15,10 @@ export default function Main ( { data } )
             </div>
             <div className="justify-end flex animate-charcter  ml-72">
                 <span className="text-left text-9xl text-black">&lt;/&gt;</span>
-            </div>
+                </div>
+                <hr className='hr' />
+
+                {/* <hr  className='hr'/> */}
         </div>
     );
 }
