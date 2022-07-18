@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 
 app.get("/api", (request, response) => {
-  fs.readFile("./data/data.json", "utf-8", (err, data) => {
+  fs.readFile("./data/models.json", "utf-8", (err, data) => {
     if (err) {
       console.log("error on reading");
     } else {
